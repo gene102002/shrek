@@ -10,6 +10,7 @@ body{
     'header header header'
     'navigation navigation navigation'
     'content content content'
+    'footer footer footer'
      ;
 
 }
@@ -79,7 +80,24 @@ main video{
 }
 
 footer{
-    background-color: green;
+    background-color: inherit;
     text-align: center;
+    border: 0px;
+    font-size: smaller;
 }
 
+footer button{
+    background-color: gray;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    font-size: small;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* keep your existing hover */
+footer button:hover{
+    background-color: black; 
+}
