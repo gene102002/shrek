@@ -84,20 +84,36 @@ footer{
     text-align: center;
     border: 0px;
     font-size: smaller;
+    background-color: green;
+    border: 1px solid;
+    
 }
 
-footer button{
-    background-color: gray;
-    color: #ffffff;
-    border: none;
-    padding: 10px 18px;
-    font-size: small;
-    border-radius: 8px;
-    cursor: pointer;
-}
+#logo{
+
+    float: left;
+    margin-right: 15px;
+    background-color: inherit;
 
 
-/* keep your existing hover */
-footer button:hover{
-    background-color: black; 
 }
+.details_Header{
+    font: 100;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+
+    
+}
+.details{
+
+    text-align: justify;
+    font-style: oblique;
+    text-decoration:double;
+    
+
+    
+}
+
