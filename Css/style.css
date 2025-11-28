@@ -7,15 +7,17 @@ body{
 #parent{
     display: grid;
     grid-template-areas:
-    'header header header'
-    'navigation navigation navigation'
-    'content content content'
-    'footer footer footer'
+    'header header header '
+    'navigation navigation  navigation'
+    'content content content '
+    'footer footer footer '
      ;
-
+    /* make the grid fill the viewport so the footer can be pushed to the bottom */
+    min-height: 100vh;
+    grid-template-rows: auto auto 1fr auto;
 }
 header{
-    text-align: left;
+    text-align: center;
      background-color: wheat;
      grid-area: header;
 }
@@ -58,7 +60,8 @@ button  :hover {
 
 }
 main{
-
+    grid-area: content;
+    
     border:  1px inherit solid ;
     border-radius: 10px;
     text-align: center;
