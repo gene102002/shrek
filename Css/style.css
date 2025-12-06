@@ -89,7 +89,9 @@ footer{
     font-size: smaller;
     background-color: green;
     border: 1px solid;
-    
+    grid-area: footer;
+    padding: 20px;
+    width: 100%;
 }
 
 #logo{
