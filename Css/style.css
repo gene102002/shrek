@@ -137,3 +137,20 @@ ul{
     list-style-type: none;
     
 }
+.Characters{
+    display: flex;
+    float: left;
+    margin-bottom: 20px;
+}
+.char_Description{
+    text-align: justify;
+    margin: 0px 20px 20px 20px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+
+}
+.trailer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
